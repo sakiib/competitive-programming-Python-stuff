@@ -4,7 +4,7 @@ import math
 def main():
     for tc in range(int(input())):
         a, b = map(int, input().split())
-        x = min(max(2 * a, b), max(a, 2 * b))
+        x = min(max(a + a, b), max(a, b + b))
         print(x * x)
 
 
